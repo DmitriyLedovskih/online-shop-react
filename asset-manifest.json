@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/online-shop-react/static/css/main.0bf78081.css",
-    "main.js": "/online-shop-react/static/js/main.58aa497d.js",
+    "main.js": "/online-shop-react/static/js/main.a0c38cfe.js",
     "static/js/787.a19e859c.chunk.js": "/online-shop-react/static/js/787.a19e859c.chunk.js",
     "static/media/Manrope-Regular.woff": "/online-shop-react/static/media/Manrope-Regular.2b135e5ff0bae6f7c20e.woff",
     "static/media/Manrope-SemiBold.woff": "/online-shop-react/static/media/Manrope-SemiBold.b9a59792aa7186dd8f78.woff",
@@ -15,11 +15,11 @@
     "static/media/Manrope-ExtraBold.woff2": "/online-shop-react/static/media/Manrope-ExtraBold.253b75f90bfe6c49b386.woff2",
     "index.html": "/online-shop-react/index.html",
     "main.0bf78081.css.map": "/online-shop-react/static/css/main.0bf78081.css.map",
-    "main.58aa497d.js.map": "/online-shop-react/static/js/main.58aa497d.js.map",
+    "main.a0c38cfe.js.map": "/online-shop-react/static/js/main.a0c38cfe.js.map",
     "787.a19e859c.chunk.js.map": "/online-shop-react/static/js/787.a19e859c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bf78081.css",
-    "static/js/main.58aa497d.js"
+    "static/js/main.a0c38cfe.js"
   ]
 }
