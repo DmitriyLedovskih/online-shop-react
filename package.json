@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://{DmitriyLedovskih}.github.io/{online-shop-react}",
+  "homepage": "https://DmitriyLedovskih.github.io/online-shop-react",
   "eslintConfig": {
     "extends": [
       "react-app",
