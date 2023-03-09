@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/%7Bonline-shop-react%7D/static/css/main.e44bbb33.css",
-    "main.js": "/%7Bonline-shop-react%7D/static/js/main.1ffc3c58.js",
-    "static/js/787.a19e859c.chunk.js": "/%7Bonline-shop-react%7D/static/js/787.a19e859c.chunk.js",
-    "static/media/Manrope-Regular.woff": "/%7Bonline-shop-react%7D/static/media/Manrope-Regular.2b135e5ff0bae6f7c20e.woff",
-    "static/media/Manrope-SemiBold.woff": "/%7Bonline-shop-react%7D/static/media/Manrope-SemiBold.b9a59792aa7186dd8f78.woff",
-    "static/media/Manrope-Medium.woff": "/%7Bonline-shop-react%7D/static/media/Manrope-Medium.0b1d9219581a7c8bd6ac.woff",
-    "static/media/Manrope-Bold.woff": "/%7Bonline-shop-react%7D/static/media/Manrope-Bold.33fd7899bd336a760090.woff",
-    "static/media/Manrope-ExtraBold.woff": "/%7Bonline-shop-react%7D/static/media/Manrope-ExtraBold.cbf42bf7e8504a451152.woff",
-    "static/media/Manrope-Medium.woff2": "/%7Bonline-shop-react%7D/static/media/Manrope-Medium.de79433e37b1e90f1d09.woff2",
-    "static/media/Manrope-Bold.woff2": "/%7Bonline-shop-react%7D/static/media/Manrope-Bold.3ce997ec777b05c93854.woff2",
-    "static/media/Manrope-Regular.woff2": "/%7Bonline-shop-react%7D/static/media/Manrope-Regular.7e4f44e2725c4c314be0.woff2",
-    "static/media/Manrope-SemiBold.woff2": "/%7Bonline-shop-react%7D/static/media/Manrope-SemiBold.d050d77ab6d83ee023d5.woff2",
-    "static/media/Manrope-ExtraBold.woff2": "/%7Bonline-shop-react%7D/static/media/Manrope-ExtraBold.253b75f90bfe6c49b386.woff2",
-    "index.html": "/%7Bonline-shop-react%7D/index.html",
-    "main.e44bbb33.css.map": "/%7Bonline-shop-react%7D/static/css/main.e44bbb33.css.map",
-    "main.1ffc3c58.js.map": "/%7Bonline-shop-react%7D/static/js/main.1ffc3c58.js.map",
-    "787.a19e859c.chunk.js.map": "/%7Bonline-shop-react%7D/static/js/787.a19e859c.chunk.js.map"
+    "main.css": "/online-shop-react/static/css/main.0bf78081.css",
+    "main.js": "/online-shop-react/static/js/main.58aa497d.js",
+    "static/js/787.a19e859c.chunk.js": "/online-shop-react/static/js/787.a19e859c.chunk.js",
+    "static/media/Manrope-Regular.woff": "/online-shop-react/static/media/Manrope-Regular.2b135e5ff0bae6f7c20e.woff",
+    "static/media/Manrope-SemiBold.woff": "/online-shop-react/static/media/Manrope-SemiBold.b9a59792aa7186dd8f78.woff",
+    "static/media/Manrope-Medium.woff": "/online-shop-react/static/media/Manrope-Medium.0b1d9219581a7c8bd6ac.woff",
+    "static/media/Manrope-Bold.woff": "/online-shop-react/static/media/Manrope-Bold.33fd7899bd336a760090.woff",
+    "static/media/Manrope-ExtraBold.woff": "/online-shop-react/static/media/Manrope-ExtraBold.cbf42bf7e8504a451152.woff",
+    "static/media/Manrope-Medium.woff2": "/online-shop-react/static/media/Manrope-Medium.de79433e37b1e90f1d09.woff2",
+    "static/media/Manrope-Bold.woff2": "/online-shop-react/static/media/Manrope-Bold.3ce997ec777b05c93854.woff2",
+    "static/media/Manrope-Regular.woff2": "/online-shop-react/static/media/Manrope-Regular.7e4f44e2725c4c314be0.woff2",
+    "static/media/Manrope-SemiBold.woff2": "/online-shop-react/static/media/Manrope-SemiBold.d050d77ab6d83ee023d5.woff2",
+    "static/media/Manrope-ExtraBold.woff2": "/online-shop-react/static/media/Manrope-ExtraBold.253b75f90bfe6c49b386.woff2",
+    "index.html": "/online-shop-react/index.html",
+    "main.0bf78081.css.map": "/online-shop-react/static/css/main.0bf78081.css.map",
+    "main.58aa497d.js.map": "/online-shop-react/static/js/main.58aa497d.js.map",
+    "787.a19e859c.chunk.js.map": "/online-shop-react/static/js/787.a19e859c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e44bbb33.css",
-    "static/js/main.1ffc3c58.js"
+    "static/css/main.0bf78081.css",
+    "static/js/main.58aa497d.js"
   ]
 }
