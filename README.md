@@ -4,7 +4,7 @@
 
 ## Обложка:
 
-![Обложка](./src/assets/images/preview.png)
+![Обложка](assets/images/preview.png)
 
 ## Описание:
 
