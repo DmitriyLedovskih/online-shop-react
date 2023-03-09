@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "title": "Need For Speed",
+    "image": "https:dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
+    "price": 4999,
+    "discount": 25,
+    "oldPrice": "6999",
+    "top": true,
+    "descr":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
+  },
+  {
+    "id": 2,
+    "title": "GTA V",
+    "image": "https:dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
+    "price": 2999,
+    "discount": 25,
+    "oldPrice": "3999",
+    "top": true,
+    "descr":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
+  },
+  {
+    "id": 3,
+    "title": "Call Of Duty",
+    "image": "https:dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
+    "price": 1999,
+    "top": true,
+    "descr":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
+  },
+  {
+    "id": 4,
+    "title": "CSGO",
+    "image": "https:dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
+    "price": 699,
+    "top": false,
+    "descr":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
+  },
+  {
+    "id": 5,
+    "title": "GTA 4",
+    "image": "https:dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
+    "price": 999,
+    "top": false,
+    "descr":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
+  },
+  {
+    "id": 6,
+    "title": "Atomic Hearth",
+    "image": "https:dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
+    "price": 999,
+    "top": false,
+    "descr":
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
+  }
+]

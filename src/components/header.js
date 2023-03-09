@@ -7,23 +7,25 @@ function Header() {
     <header className="header">
       <div className="container">
         <div className="header__row">
-          <ul className="header__menu">
-            <li className="header__menu-item">
-              <a href="#" className="header__menu-link link">
-                Отзывы
-              </a>
-            </li>
-            <li className="header__menu-item">
-              <a href="#" className="header__menu-link link">
-                Гарантии
-              </a>
-            </li>
-            <li className="header__menu-item">
-              <a href="#" className="header__menu-link link">
-                Как купить
-              </a>
-            </li>
-          </ul>
+          <nav className="header__nav">
+            <ul className="header__menu">
+              <li className="header__menu-item">
+                <a href="#" className="header__menu-link link">
+                  Отзывы
+                </a>
+              </li>
+              <li className="header__menu-item">
+                <a href="#" className="header__menu-link link">
+                  Гарантии
+                </a>
+              </li>
+              <li className="header__menu-item">
+                <a href="#" className="header__menu-link link">
+                  Как купить
+                </a>
+              </li>
+            </ul>
+          </nav>
           <button type="button" className="header__profile button">
             <span className="header__profile-name">Имя</span>
             <img
