@@ -7,6 +7,8 @@
     "discount": 25,
     "oldPrice": "6999",
     "top": true,
+    "category": ["new", "key"],
+    "platform": "Steam",
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -18,6 +20,8 @@
     "discount": 25,
     "oldPrice": "3999",
     "top": true,
+    "category": ["new", "account"],
+    "platform": "Steam",
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -27,6 +31,8 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 1999,
     "top": true,
+    "category": ["account", "key"],
+    "platform": "Steam",
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -36,6 +42,8 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 699,
     "top": false,
+    "category": ["new", "account", "key"],
+    "platform": "Origin",
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -45,6 +53,8 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 999,
     "top": false,
+    "category": ["new", "account", "key"],
+    "platform": "Steam",
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -54,6 +64,8 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 999,
     "top": false,
+    "category": ["new", "account", "key"],
+    "platform": "Epic Games",
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   }

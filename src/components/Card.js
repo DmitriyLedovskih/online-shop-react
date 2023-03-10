@@ -1,7 +1,7 @@
 import React from "react";
 import { FiHeart } from "react-icons/fi";
 
-function Card({ item }) {
+function Card({ item, onAddToCart }) {
   return (
     <article className="card">
       <div
@@ -24,6 +24,7 @@ function Card({ item }) {
         <button
           className="card__buy-button button button_type_primary"
           type="button"
+          onClick={() => onAddToCart(item)}
         >
           В корзину
         </button>

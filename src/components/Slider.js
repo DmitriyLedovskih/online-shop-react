@@ -1,20 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-function Slider({ data }) {
+function Slider({ data, onAddToCart }) {
+  const [slide, setSlide] = useState(0);
+
+  function nextSlide() {
+    setSlide(slide + 100);
+  }
+
+  function prevSlide() {
+    setSlide(slide - 100);
+  }
   return (
     <>
       <button
         className="slider__button slider__button_type_left button"
         type="button"
+        onClick={prevSlide}
+        disabled={slide === 0}
       >
         <FiChevronLeft className="icon icon_color_light" />
       </button>
-      <div className="slider__container">
+      <div
+        className="slider__container"
+        style={{ transform: `translateX(-${slide}%)` }}
+      >
         {data.map((item) => (
           <div
-            className="slider__slide slider-main__slide"
+            className={`slider__slide slider-main__slide`}
             style={{ "background-image": `url(${item.image})` }}
+            key={item.id}
           >
             <div className="slider__slide-content">
               <h2 className="slider__slide-title">
@@ -33,7 +48,10 @@ function Slider({ data }) {
                 )}
               </div>
               <div className="slider__slide-buttons">
-                <button className="slider__slide-button button button_type_light button-main">
+                <button
+                  className="slider__slide-button button button_type_light button-main"
+                  onClick={() => onAddToCart(item)}
+                >
                   В корзину
                 </button>
                 <button className="slider__slide-button button button_type_opacity button-main">
@@ -47,13 +65,16 @@ function Slider({ data }) {
       <button
         className="slider__button slider__button_type_right button"
         type="button"
+        onClick={nextSlide}
+        // Пока использовал вот такой костыль
+        disabled={slide === 500}
       >
         <FiChevronRight className="icon icon_color_light" />
       </button>
       <div className="slider__pagination">
         {data.map(() => (
           <button
-            className="slider__pagination-button button"
+            className={`slider__pagination-button button`}
             type="button"
           ></button>
         ))}

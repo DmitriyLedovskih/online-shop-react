@@ -1,8 +1,9 @@
 import React from "react";
 import { FiHeart, FiShoppingCart } from "react-icons/fi";
+import { Link } from "react-router-dom";
 import SearchForm from "./SearchForm";
 
-function Header() {
+function Header({ item }) {
   return (
     <header className="header">
       <div className="container">
@@ -36,9 +37,9 @@ function Header() {
           </button>
         </div>
         <div className="header__row">
-          <a href="#" className="logo link">
+          <Link to="/" className="logo link">
             Логотип
-          </a>
+          </Link>
           <SearchForm />
           <ul className="header__icons">
             <li className="header__icon">
@@ -48,10 +49,10 @@ function Header() {
               </button>
             </li>
             <li className="header__icon">
-              <button className="header__icon-button button">
+              <Link to="/cart" className="header__icon-button button">
                 <FiShoppingCart className="header__icon-button icon icon_color_primary" />
-                <span className="header__icon-counter">0</span>
-              </button>
+                <span className="header__icon-counter">{item.length}</span>
+              </Link>
             </li>
           </ul>
         </div>
