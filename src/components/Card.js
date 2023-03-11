@@ -1,7 +1,8 @@
 import React from "react";
 import { FiHeart } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
-function Card({ item, onAddToCart }) {
+function Card({ item, onAddToCart, getItem }) {
   return (
     <article className="card">
       <div
@@ -31,9 +32,13 @@ function Card({ item, onAddToCart }) {
       </div>
       <div className="card__content">
         <h2 className="card__content-title">
-          <a href="#" className="link card__content-link">
+          <Link
+            to={`/game/${item.title}`}
+            className="link card__content-link"
+            onClick={() => getItem(item)}
+          >
             {item.title}
-          </a>
+          </Link>
         </h2>
         <div className="card__content-prices prices">
           <span className="prices__price">{item.price} ₽</span>

@@ -7,8 +7,9 @@
     "discount": 25,
     "oldPrice": "6999",
     "top": true,
-    "category": ["new", "key"],
+    "category": "Гонки",
     "platform": "Steam",
+    "imageSlider": ["https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg"],
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -20,8 +21,9 @@
     "discount": 25,
     "oldPrice": "3999",
     "top": true,
-    "category": ["new", "account"],
+    "category": "Гонки",
     "platform": "Steam",
+    "imageSlider": ["https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg"],
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -31,8 +33,9 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 1999,
     "top": true,
-    "category": ["account", "key"],
+    "category": "Шутер",
     "platform": "Steam",
+    "imageSlider": ["https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg"],
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -42,8 +45,9 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 699,
     "top": false,
-    "category": ["new", "account", "key"],
+    "category": "Шутер",
     "platform": "Origin",
+    "imageSlider": ["https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg"],
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -53,8 +57,9 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 999,
     "top": false,
-    "category": ["new", "account", "key"],
+    "category": "Гонки",
     "platform": "Steam",
+    "imageSlider": ["https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg"],
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   },
@@ -64,8 +69,9 @@
     "image": "https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg",
     "price": 999,
     "top": false,
-    "category": ["new", "account", "key"],
+    "category": "Шутер",
     "platform": "Epic Games",
+    "imageSlider": ["https://dmitriyledovskih.github.io/online-shop-react/images/bg-slide.jpg"],
     "descr":
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio molestias nisi quod ullam officia optio neque quaerat totam? Illo, corporis inventore. Ipsum ad vitae unde, sequi recusandae nesciunt porro minus."
   }

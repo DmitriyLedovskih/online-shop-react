@@ -5,16 +5,42 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./Footer";
 import Cart from "./Cart";
 import { React, useState } from "react";
+import Game from "./Game";
 
 function App() {
   const tabArr = ["Всё", "Новинки", "Аккаунты", "Ключи"];
   const [item, setItem] = useState([]);
+  const [counter, setCounter] = useState(1);
+  let [price, setPrice] = useState(0);
+
   function addToCart(data) {
     setItem([...item, data]);
+    setPrice((price += Number.parseFloat(data.price)));
   }
-  function deleteCartItem(id) {
-    setItem(item.filter((element) => element.id !== id));
+
+  function deleteCartItem(data) {
+    setItem(item.filter((element) => element.id !== data.id));
+    setPrice((price -= Number.parseFloat(data.price)));
   }
+
+  function incrementCounter(data) {
+    setCounter(counter + 1);
+    setPrice((price += data.price));
+  }
+
+  function dicrementCounter(data) {
+    if (counter > 1) {
+      setCounter(counter - 1);
+      setPrice((price -= data.price));
+    }
+  }
+
+  const [card, setCard] = useState({});
+  function getItem(item) {
+    setCard(item);
+    console.log(card, item);
+  }
+
   return (
     <div className="App">
       <Header item={item} />
@@ -22,14 +48,39 @@ function App() {
         <div className="container">
           <Routes>
             <Route
-              path="/online-shop-react"
+              path="/"
               element={
-                <Main data={cardData} tab={tabArr} onAddToCart={addToCart} />
+                <Main
+                  data={cardData}
+                  tab={tabArr}
+                  onAddToCart={addToCart}
+                  getItem={getItem}
+                />
               }
             />
             <Route
               path="/cart"
-              element={<Cart data={item} onDeleteItem={deleteCartItem} />}
+              element={
+                <Cart
+                  data={item}
+                  onDeleteItem={deleteCartItem}
+                  onIncrement={incrementCounter}
+                  onDicrement={dicrementCounter}
+                  counter={counter}
+                  price={price}
+                />
+              }
+            />
+            <Route
+              path="/game/:title"
+              element={
+                <Game
+                  card={card}
+                  onAddToCart={addToCart}
+                  getItem={getItem}
+                  cards={cardData}
+                />
+              }
             />
           </Routes>
         </div>

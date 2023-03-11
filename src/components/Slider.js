@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
-function Slider({ data, onAddToCart }) {
+function Slider({ data, onAddToCart, getItem }) {
   const [slide, setSlide] = useState(0);
+  const [indexSlide, setIndexSlide] = useState(0);
 
   function nextSlide() {
     setSlide(slide + 100);
+    setIndexSlide(indexSlide + 1);
   }
 
   function prevSlide() {
     setSlide(slide - 100);
+    setIndexSlide(indexSlide - 1);
   }
   return (
     <>
@@ -33,9 +37,13 @@ function Slider({ data, onAddToCart }) {
           >
             <div className="slider__slide-content">
               <h2 className="slider__slide-title">
-                <a href="#" className="link slider__slide-link">
+                <Link
+                  to={`/game/${item.title}`}
+                  className="link slider__slide-link"
+                  onClick={() => getItem(item)}
+                >
                   {item.title}
-                </a>
+                </Link>
               </h2>
               <p className="slider__slide-subtitle">{item.descr}</p>
               <div className="slider__slide-prices prices">
@@ -72,10 +80,13 @@ function Slider({ data, onAddToCart }) {
         <FiChevronRight className="icon icon_color_light" />
       </button>
       <div className="slider__pagination">
-        {data.map(() => (
+        {data.map((item, index) => (
           <button
-            className={`slider__pagination-button button`}
+            className={`slider__pagination-button button ${
+              index === indexSlide ? "slider__pagination-button_active" : ""
+            }`}
             type="button"
+            onClick={nextSlide}
           ></button>
         ))}
       </div>
