@@ -37,7 +37,7 @@ function Header({ item }) {
           </button>
         </div>
         <div className="header__row">
-          <Link to="/" className="logo link">
+          <Link to="/online-shop-react" className="logo link">
             Логотип
           </Link>
           <SearchForm />

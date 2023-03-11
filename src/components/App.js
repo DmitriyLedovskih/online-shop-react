@@ -22,7 +22,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route
-              path="/"
+              path="/online-shop-react"
               element={
                 <Main data={cardData} tab={tabArr} onAddToCart={addToCart} />
               }
