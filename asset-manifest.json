@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/online-shop-react/static/css/main.fac8ec9e.css",
-    "main.js": "/online-shop-react/static/js/main.e3e73436.js",
+    "main.js": "/online-shop-react/static/js/main.f316b8b7.js",
     "static/js/787.a19e859c.chunk.js": "/online-shop-react/static/js/787.a19e859c.chunk.js",
     "static/media/visa-logo.svg": "/online-shop-react/static/media/visa-logo.35d5be08ffc1551a016cd600c8bac31a.svg",
     "static/media/Mir-logo.svg": "/online-shop-react/static/media/Mir-logo.7a01cb12ecd184accfe7e8534952af70.svg",
@@ -20,11 +20,11 @@
     "static/media/discord-logo.svg": "/online-shop-react/static/media/discord-logo.aa46cd673a68195f2b43510ecce34663.svg",
     "index.html": "/online-shop-react/index.html",
     "main.fac8ec9e.css.map": "/online-shop-react/static/css/main.fac8ec9e.css.map",
-    "main.e3e73436.js.map": "/online-shop-react/static/js/main.e3e73436.js.map",
+    "main.f316b8b7.js.map": "/online-shop-react/static/js/main.f316b8b7.js.map",
     "787.a19e859c.chunk.js.map": "/online-shop-react/static/js/787.a19e859c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fac8ec9e.css",
-    "static/js/main.e3e73436.js"
+    "static/js/main.f316b8b7.js"
   ]
 }
