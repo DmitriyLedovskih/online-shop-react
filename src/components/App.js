@@ -10,8 +10,8 @@ import Game from "./Game";
 function App() {
   const tabArr = ["Всё", "Новинки", "Аккаунты", "Ключи"];
   const [item, setItem] = useState([]);
-  const [counter, setCounter] = useState(1);
   let [price, setPrice] = useState(0);
+  const [card, setCard] = useState({});
 
   function addToCart(data) {
     setItem([...item, data]);
@@ -23,19 +23,18 @@ function App() {
     setPrice((price -= Number.parseFloat(data.price)));
   }
 
-  function incrementCounter(data) {
-    setCounter(counter + 1);
-    setPrice((price += data.price));
-  }
+  // function incrementCounter(data) {
+  //   setCounter(counter + 1);
+  //   setPrice((price += data.price));
+  // }
 
-  function dicrementCounter(data) {
-    if (counter > 1) {
-      setCounter(counter - 1);
-      setPrice((price -= data.price));
-    }
-  }
+  // function dicrementCounter(data) {
+  //   if (counter > 1) {
+  //     setCounter(counter - 1);
+  //     setPrice((price -= data.price));
+  //   }
+  // }
 
-  const [card, setCard] = useState({});
   function getItem(item) {
     setCard(item);
     console.log(card, item);
@@ -61,14 +60,7 @@ function App() {
             <Route
               path="/cart"
               element={
-                <Cart
-                  data={item}
-                  onDeleteItem={deleteCartItem}
-                  onIncrement={incrementCounter}
-                  onDicrement={dicrementCounter}
-                  counter={counter}
-                  price={price}
-                />
+                <Cart data={item} onDeleteItem={deleteCartItem} price={price} />
               }
             />
             <Route

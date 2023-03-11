@@ -1,14 +1,12 @@
 import React from "react";
 import { FiMinus, FiPlus, FiX } from "react-icons/fi";
+import { useSelector, useDispatch } from "react-redux";
+import { decrement, increment } from "../redux/slices/counterSlice";
 
-function Cart({
-  data,
-  onDeleteItem,
-  onIncrement,
-  onDicrement,
-  counter,
-  price,
-}) {
+function Cart({ data, onDeleteItem, price }) {
+  const count = useSelector((state) => state.counter.count);
+  const dispatch = useDispatch();
+
   return (
     <section className="content__section cart">
       <h1 className="content__section-title cart__title">
@@ -74,15 +72,15 @@ function Cart({
                   <button
                     className="cart__counter-button button button_type_light"
                     type="button"
-                    onClick={() => onDicrement(item)}
+                    onClick={() => dispatch(decrement())}
                   >
                     <FiMinus />
                   </button>
-                  <span className="cart__counter-number">{counter}</span>
+                  <span className="cart__counter-number">{count}</span>
                   <button
                     className="cart__counter-button button button_type_light"
                     type="button"
-                    onClick={() => onIncrement(item)}
+                    onClick={() => dispatch(increment())}
                   >
                     <FiPlus />
                   </button>

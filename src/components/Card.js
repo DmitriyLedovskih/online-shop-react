@@ -7,7 +7,7 @@ function Card({ item, onAddToCart, getItem }) {
     <article className="card">
       <div
         className="card__preview"
-        style={{ "background-image": `url(${item.image})` }}
+        style={{ backgroundImage: `url(${item.image})` }}
       >
         <div className="card__header">
           {item.top && (

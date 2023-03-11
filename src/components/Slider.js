@@ -32,7 +32,7 @@ function Slider({ data, onAddToCart, getItem }) {
         {data.map((item) => (
           <div
             className={`slider__slide slider-main__slide`}
-            style={{ "background-image": `url(${item.image})` }}
+            style={{ backgroundImage: `url(${item.image})` }}
             key={item.id}
           >
             <div className="slider__slide-content">
@@ -87,6 +87,7 @@ function Slider({ data, onAddToCart, getItem }) {
             }`}
             type="button"
             onClick={nextSlide}
+            key={index}
           ></button>
         ))}
       </div>
