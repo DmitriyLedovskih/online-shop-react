@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/online-shop-react/static/css/main.0bf78081.css",
-    "main.js": "/online-shop-react/static/js/main.a0c38cfe.js",
+    "main.css": "/online-shop-react/static/css/main.fac8ec9e.css",
+    "main.js": "/online-shop-react/static/js/main.e3e73436.js",
     "static/js/787.a19e859c.chunk.js": "/online-shop-react/static/js/787.a19e859c.chunk.js",
+    "static/media/visa-logo.svg": "/online-shop-react/static/media/visa-logo.35d5be08ffc1551a016cd600c8bac31a.svg",
+    "static/media/Mir-logo.svg": "/online-shop-react/static/media/Mir-logo.7a01cb12ecd184accfe7e8534952af70.svg",
+    "static/media/masterCard-logo.svg": "/online-shop-react/static/media/masterCard-logo.47d23b73697ddbc40e51c33ba35cf0ff.svg",
     "static/media/Manrope-Regular.woff": "/online-shop-react/static/media/Manrope-Regular.2b135e5ff0bae6f7c20e.woff",
     "static/media/Manrope-SemiBold.woff": "/online-shop-react/static/media/Manrope-SemiBold.b9a59792aa7186dd8f78.woff",
     "static/media/Manrope-Medium.woff": "/online-shop-react/static/media/Manrope-Medium.0b1d9219581a7c8bd6ac.woff",
@@ -13,13 +16,15 @@
     "static/media/Manrope-Regular.woff2": "/online-shop-react/static/media/Manrope-Regular.7e4f44e2725c4c314be0.woff2",
     "static/media/Manrope-SemiBold.woff2": "/online-shop-react/static/media/Manrope-SemiBold.d050d77ab6d83ee023d5.woff2",
     "static/media/Manrope-ExtraBold.woff2": "/online-shop-react/static/media/Manrope-ExtraBold.253b75f90bfe6c49b386.woff2",
+    "static/media/vk-logo.svg": "/online-shop-react/static/media/vk-logo.074fe45acacaa312e4909aec9231c885.svg",
+    "static/media/discord-logo.svg": "/online-shop-react/static/media/discord-logo.aa46cd673a68195f2b43510ecce34663.svg",
     "index.html": "/online-shop-react/index.html",
-    "main.0bf78081.css.map": "/online-shop-react/static/css/main.0bf78081.css.map",
-    "main.a0c38cfe.js.map": "/online-shop-react/static/js/main.a0c38cfe.js.map",
+    "main.fac8ec9e.css.map": "/online-shop-react/static/css/main.fac8ec9e.css.map",
+    "main.e3e73436.js.map": "/online-shop-react/static/js/main.e3e73436.js.map",
     "787.a19e859c.chunk.js.map": "/online-shop-react/static/js/787.a19e859c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bf78081.css",
-    "static/js/main.a0c38cfe.js"
+    "static/css/main.fac8ec9e.css",
+    "static/js/main.e3e73436.js"
   ]
 }
